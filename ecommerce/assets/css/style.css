@@ -1,0 +1,498 @@
+
+/* Import Montserrat font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Header Menu */
+.header_menu {
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    padding: 1rem 0;
+}
+
+.navbar-brand img {
+    width: 120px;
+    height: auto;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 15px;
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+    font-weight: 500;
+    padding: 8px 16px;
+    text-transform: uppercase;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+.search {
+    margin-right: 1rem;
+}
+
+.cart i {
+    font-size: 1.8rem;
+    color: #007bff;
+}
+
+.cart.badge {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: #ff5a5f;
+}
+
+/* Carousel */
+.header_carousel {
+    margin-top: 20px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+}
+
+/* Shop By Category */
+.shop_by_category {
+    background-color: #ffffff;
+    padding: 50px 0;
+}
+
+.shop_by_category .section_title h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.shop_by_category .card {
+    position: relative;
+    overflow: hidden;
+}
+
+.shop_by_category .card img {
+    width: 100%;
+    height: auto;
+}
+
+.shop_by_category .card .new_product {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #ff5a5f;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    border-radius: 3px;
+}
+
+/* Products Section */
+.products {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+.products .section_title h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.single_product {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product_img {
+    position: relative;
+}
+
+.product_img img {
+    width: 100%;
+    height: auto;
+}
+
+.product-caption {
+    padding: 10px 0;
+}
+
+.product-ratting i {
+    color: #f39c12;
+}
+
+.product-caption h4 a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.product-caption h4 a:hover {
+    color: #007bff;
+}
+
+.price {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.price span {
+    color: #ff5a5f;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+    .navbar-nav {
+        text-align: left;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 5px 0;
+    }
+
+    .shop_by_category .section_title h1 {
+        font-size: 1.5rem;
+    }
+
+    .product-caption h4 a {
+        font-size: 0.9rem;
+    }
+
+    .price {
+        font-size: 1rem;
+    }
+}
+.feature {
+    background: rgb(0,121,230);
+    background: linear-gradient(0deg, rgba(0,121,230,1) 0%, rgba(0,250,255,1) 90%);
+}
+/* Import Montserrat font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Header Menu */
+.header_menu {
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    padding: 1rem 0;
+}
+
+.navbar-brand img {
+    width: 120px;
+    height: auto;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 15px;
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+    font-weight: 500;
+    padding: 8px 16px;
+    text-transform: uppercase;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+.search {
+    margin-right: 1rem;
+}
+
+.cart i {
+    font-size: 1.8rem;
+    color: #007bff;
+}
+
+.cart.badge {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: #ff5a5f;
+}
+
+/* Carousel */
+.header_carousel {
+    margin-top: 20px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 550;
+    object-fit: cover;
+}
+
+/* Shop By Category */
+.shop_by_category {
+    background-color: #ffffff;
+    padding: 50px 0;
+}
+
+.shop_by_category .section_title h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.shop_by_category .card {
+    position: relative;
+    overflow: hidden;
+}
+
+.shop_by_category .card img {
+    width: 100%;
+    height: 275px;
+}
+
+.shop_by_category .card .new_product {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #ff5a5f;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    border-radius: 3px;
+}
+
+/* Products Section */
+.products {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+.products .section_title h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.single_product {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product_img {
+    position: relative;
+}
+
+.product_img img {
+    width: 100%;
+    height: 395px;
+}
+
+.product-caption {
+    padding: 10px 0;
+}
+
+.product-ratting i {
+    color: #f39c12;
+}
+
+.product-caption h4 a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.product-caption h4 a:hover {
+    color: #007bff;
+}
+
+.price {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.price span {
+    color: #ff5a5f;
+}
+
+/* Feature Section */
+.feature {
+    background: rgb(0,121,230);
+    background: linear-gradient(0deg, rgba(0,121,230,1) 0%, rgba(0,250,255,1) 90%);
+    padding: 50px 0;
+    color: #fff;
+}
+
+.feature .section_title h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.feature .text-center {
+    margin-bottom: 30px;
+}
+
+.feature i {
+    color: #fff;
+}
+
+.feature h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+/* Footer Section */
+.footer_section {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer_section .footer_title img {
+    width: 150px;
+    height: auto;
+}
+
+.footer_section .footer_title h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.footer_section .footer_links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer_section .footer_links ul li {
+    margin-bottom: 10px;
+}
+
+.footer_section .footer_links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer_section .footer_links ul li a:hover {
+    color: #007bff;
+}
+
+.footer_section .border-top {
+    border-top: 1px solid #444;
+    padding-top: 20px;
+}
+
+.footer_section .text-center {
+    margin-top: 20px;
+}
+
+/* Back to Top Button */
+.backtop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.backtop a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #ff5a5f;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.backtop a:hover {
+    background-color: #007bff;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+    .navbar-nav {
+        text-align: left;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 5px 0;
+    }
+
+    .shop_by_category .section_title h1 {
+        font-size: 1.5rem;
+    }
+
+    .product-caption h4 a {
+        font-size: 0.9rem;
+    }
+
+    .price {
+        font-size: 1rem;
+    }
+
+    .feature .section_title h1 {
+        font-size: 1.5rem;
+    }
+
+    .feature h3 {
+        font-size: 1.2rem;
+    }
+}
